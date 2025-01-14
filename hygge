@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn English with Hygge - A cozy and fun way to master the English language.">
+    <title>Learning English with Hygge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to <span>Learning English with Hygge</span></h1>
+            <p>A cozy and effective approach to mastering English</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>At <strong>Learning English with Hygge</strong>, we believe in creating a warm and supportive environment for language learning. Our approach combines the Danish concept of "hygge" with proven teaching methods to help you learn comfortably and effectively.</p>
+            </div>
+        </section>
+
+        <section id="courses" class="section">
+            <div class="container">
+                <h2>Our Courses</h2>
+                <div class="courses-list">
+                    <div class="course-item">
+                        <h3>Beginner English</h3>
+                        <p>Start your journey with foundational grammar and vocabulary.</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Intermediate English</h3>
+                        <p>Improve your skills with conversation and real-life scenarios.</p>
+                    </div>
+                    <div class="course-item">
+                        <h3>Advanced English</h3>
+                        <p>Master English for professional and academic purposes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="section">
+            <div class="container">
+                <h2>What Our Students Say</h2>
+                <div class="testimonials-list">
+                    <div class="testimonial-item">
+                        <p>"Learning English with Hygge made me feel at home while learning a new language. Highly recommend!"</p>
+                        <span>- Anna</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The courses are so interactive and the teachers are very supportive. Thank you, Hygge!"</p>
+                        <span>- James</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Learning English with Hygge. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
